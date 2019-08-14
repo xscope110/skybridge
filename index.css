@@ -12,31 +12,45 @@ body {/*seting the background position and the font*/
 
 
 
+}/*Sets the features of the nav bar*/
 .navbar {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
   overflow: hidden;
-  position: sticky;
-  background-color: #333;
-}
-
-.navbar {
-  float: left;
-}
+  background-color: rgba(30,30,30,1);
+  text-align: center;
+  display:inline-block;
+}/*Sets the features of the nav bar*/
 
 .navbar a {
-  display: block;
-  color: white;
+  float: left;
+  color: #DCDCDC;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
+  font-size: 17px;
+}/*Sets the features of the nav bar*/
 
-.navbar a:hover:not(.active) {
-  background-color: #111;
+.navbar a:hover {
+  background-color: #000000;
+  color: #DCDCDC;
+  transform:scale(1.1);
+  transition-duration:0.5s;
 }
+/*Makes the tab enlarge on hover*/
+.navbar a.active {
+  background-color: green;
+  color: white;
+}/*Sets the features of the nav bar*/
 
-.active {
-  background-color: #4CAF50;
-}
+.content {
+  padding: 16px;
+}/*Sets the features of the nav bar*/
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}/*Sets the features of the nav bar*/
+
+.sticky + .content {
+  padding-top: 60px;
+}/*Sets the features of the nav bar*/
