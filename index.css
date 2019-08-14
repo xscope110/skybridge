@@ -21,11 +21,11 @@ body {/*seting the background position and the font*/
   background-color: #333;
 }
 
-li {
+.navbar {
   float: left;
 }
 
-li a {
+.navbar a {
   display: block;
   color: white;
   text-align: center;
@@ -33,7 +33,7 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
+.navbar a:hover:not(.active) {
   background-color: #111;
 }
 
