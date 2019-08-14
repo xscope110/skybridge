@@ -12,7 +12,7 @@ body {/*seting the background position and the font*/
 
 
 
-ul {
+.navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
