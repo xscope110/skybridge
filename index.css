@@ -1,3 +1,17 @@
+body {/*seting the background position and the font*/
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-position: left top;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+
+
+}
+
+
+
+
 ul {
   list-style-type: none;
   margin: 0;
