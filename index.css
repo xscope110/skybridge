@@ -22,7 +22,7 @@ body {/*seting the background position and the font*/
 
 .navbar a {
   float: left;
-  color: #ffffff;
+  color: #575757;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -30,13 +30,13 @@ body {/*seting the background position and the font*/
 }/*Sets the features of the nav bar*/
 
 .navbar a:hover {
-  background-color: #A0A0A0;
-  color: #ffffff;
+  background-color: #A0A0A0; /*Hover background*/
+  color: #000000;
 }
 /*Makes the tab enlarge on hover*/
 .navbar a.active {
-  background-color: green;
-  color: white;
+  background-color: green; /*active page tab background*/
+  color: white;/*active page tab text colour*/
 }/*Sets the features of the nav bar*/
 
 .content {
