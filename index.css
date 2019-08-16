@@ -7,36 +7,57 @@ body {/*seting the background position and the font*/
   background-attachment:fixed;
 
 
+}/*Sets the different backgrounds for different pages*/
+.bodyhome{
+  background-image: url("fortnite.jpg");
 }
-
-
-
+.bodycomp{
+  background-image: url("backgroundps4.jpg");
+}
+.bodypos{
+  background-image: url("tick.jpg");
+}
+.bodyneg{
+  background-image: url("cross.jpg");
+}
+.bodyabout{
+  background-image: url("fortniteabout101.jpg");
+}
+header {
+    background-color:rbga(30,30,30,0.3);
+}
+<!--Enlarges the text on hover-->
+.atext:hover {
+    transform:scale(1.2);
+    transition-duration:1s;
 
 }/*Sets the features of the nav bar*/
-.navbar {
+.topnav {
   overflow: hidden;
-  background-color: #212121;
+  background-color: rgba(30,30,30,1);
   text-align: center;
   display:inline-block;
 }/*Sets the features of the nav bar*/
 
-.navbar a {
+.topnav a {
   float: left;
-  color: #575757;
+  color: #DCDCDC;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }/*Sets the features of the nav bar*/
 
-.navbar a:hover {
-  background-color: #A0A0A0; /*Hover background*/
-  color: #000000;
+.topnav a:hover {
+  background-color: #000000;
+  color: #DCDCDC;
+  transform:scale(1.1);
+  transition-duration:0.5s;
 }
 /*Makes the tab enlarge on hover*/
-.navbar a.active {
-  background-color: green; /*active page tab background*/
-  color: white;/*active page tab text colour*/
+.topnav a.active {
+  background-color: green;
+  color: white;
 }/*Sets the features of the nav bar*/
 
 .content {
@@ -52,3 +73,12 @@ body {/*seting the background position and the font*/
 .sticky + .content {
   padding-top: 60px;
 }/*Sets the features of the nav bar*/
+
+
+
+
+/*Text colour=white*/
+.text {
+    color:white;
+
+}
