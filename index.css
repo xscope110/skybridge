@@ -4,5 +4,94 @@
 }
 
 body {
-  background-image: url(ytb.jpg);
+  background-image: url(img/bg.png);
+  background-size: cover;
+}
+
+nav {
+  width: 100%;    /* nav bar background size*/
+  height: 60px;   /* nav bar background size*/
+  background-color: #323232 /* nav bar background eg white bar*/
+}
+
+.orangetext {
+  color: #CF8606;
+}
+
+.bluetext {
+  color: #2385C8;
+}
+
+.blacktext {
+  color: #000000;
+}
+
+.text {
+  color: #fff;
+  font-family: arial;
+}
+.textb {
+  color: #000000;
+  font-family: arial;
+}
+
+nav p { /* the size and colour of the paragraph insert in the nav bar tags*/
+  font-family: arial;
+  color: #222;
+  font-size: 24px;
+  line-height 55px;
+  float: left;
+  padding: 15px 20px;
+}
+
+nav ul { /*making the ul be positioned to the left*/
+  float: left;
+}
+
+nav ul li {/*making the ul be positioned to the left*/
+  float: left;
+  list-style: none;
+  position: relative;
+}
+
+nav ul li a { /*characteristics of the <a> text*/
+  display: block;
+  font-family: arial;
+  color: #222;
+  font-size: 17px;
+  padding: 22px 14px;
+  text-decoration: none;
+}
+
+nav ul li a:hover { /*characteristics of the <a> text*/
+  color: #CF8606; /*hoverbackground colour*/
+
+}
+nav ul li ul { /*characteristics of the dropdown*/
+  display: none;
+  position: absolute;
+  background-color: #323232;
+  padding: 7px;  /*change*/
+  border-radius: 4px 4px 4px 4px;
+
+}
+
+nav ul li:hover ul { /*characteristics of the <a> text*/
+  display: block;
+
+}
+
+nav ul li ul li { /*characteristics of the <a> text*/
+  width: 180px;
+  border-radius: 4px;
+
+}
+
+nav ul li ul li a { /*characteristics of the <a> text*/
+  padding: 8px 14px;
+
+}
+
+nav ul li ul li a:hover { /*characteristics of the <a> text*/
+  background-color: #161616; /*hoverbackground colour*/
 }
